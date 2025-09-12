@@ -65,7 +65,7 @@ passwd
 
 cd ~/
 
-mkdir drmatoi_minecrafthost16 && drmatoi_minecrafthost16
+mkdir ronak_minecrafthost16 && ronak_minecrafthost16
 
 cd drmatoi_minecrafthost16
 
@@ -82,7 +82,7 @@ java -Xmx8G -Xms8G -jar server.jar nogui
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/ronakogX/Minecraft-Host-termux-2.0
 cd minecraft
 chmod +x betalauncher1.16.5.sh
 ./betalauncher1.16.5.sh
