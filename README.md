@@ -158,7 +158,7 @@ chmod +x launcher.sh
 
 Original project: [drmatoi/minecraft](https://github.com/drmatoi/minecraft)
 
-**Thank you for using this script!** 
+**Thank you for using this script !** 
 
 If you found it helpful:
 - ⭐ Star this repository
