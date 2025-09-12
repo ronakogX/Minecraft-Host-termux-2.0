@@ -39,7 +39,7 @@ chmod +x START.sh
 
 The launcher provides an intuitive menu system (interface may vary with updates):
 
-![Launcher Screenshot](https://pasteboard.co/bBhEAjezupbp.png)
+![Launcher Screenshot]([https://pasteboard.co/bBhEAjezupbp.png](https://gcdnb.pbrd.co/images/bBhEAjezupbp.png?o=1))
 
 ## 🌐 Server Configuration
 
