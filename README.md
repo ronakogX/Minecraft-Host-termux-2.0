@@ -120,7 +120,6 @@ Your server remains online as long as:
 ### Version 1.0.1
 - ➕ Added new Minecraft version: 1.21.8
 - 🔄 Remake version with updated features
-- 
 ### Version Beta 4.0.0
 - ➕ Added general menu for version selection
 - ➕ New Minecraft versions: 1.16.5 and 1.19.2
