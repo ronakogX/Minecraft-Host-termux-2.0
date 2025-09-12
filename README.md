@@ -51,7 +51,7 @@ After completing the initial setup, you'll need your device's IP address:
 2. **Important**: Set your IP to "STATIC" to prevent it from changing
 3. Alternative IP checker: [dein-ip-check.de](https://www.dein-ip-check.de)
 
-![IP Configuration](https://github.com/user-attachments/assets/35ff42b3-d436-4934-bdab-96fb38bc22a0)
+![IP Configuration](https://github.com/user-attachments/assets/79705d4f-6607-4101-81e1-72f9a5f8a8c7)
 
 ### Server Management
 
