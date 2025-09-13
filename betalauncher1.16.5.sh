@@ -15,7 +15,7 @@ apt-get upgrade
 apt-get install python
 apt-get install python2
 clear
-echo -e "$Yellow drmatoi/minecraft  beta 4.0\e[1;34m"
+echo -e "$Yellow github.com/ronakogX/Minecraft-Host-termux-2.0"
 echo -e "$Red THIS IS AN EXPERIMENTAL VERSION WHICH IS STILL BEING DEVELOPED! \e[1;34m"
 sleep 4.0
 clear
@@ -43,7 +43,7 @@ echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
 echo -e " $Green     ||                                                                   "
-echo -e " $Green     ||             $Purple==>$Yellow[1] START Server - 8GB RAM$Green                    "
+echo -e " $Green     ||             $Purple==>$Yellow[1] START Server $Green                    "
 echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Launcher$Green                                           "
 echo -e " $Green     ||                                                                   "                                                                                       
 echo -e " $Green     ||---------------------------$Cyan [select option] $Green-----------------------||"
@@ -75,7 +75,7 @@ chmod +x server.jar
 
  echo eula=true > eula.txt
 
-java -Xmx8G -Xms8G -jar server.jar nogui
+java -Xmx1G -Xms4G -jar server.jar nogui
 
         exit
     
