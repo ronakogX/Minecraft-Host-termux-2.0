@@ -15,7 +15,7 @@ apt-get upgrade
 apt-get install python
 apt-get install python2
 clear
-echo -e "$Yellow drmatoi/minecraft  beta 4.0\e[1;34m"
+echo -e "$Yellow github.com/ronakogX/Minecraft-Host-termux-2.0"
 echo -e "$Red THIS IS AN EXPERIMENTAL VERSION WHICH IS STILL BEING DEVELOPED! \e[1;34m"
 sleep 4.0
 clear
@@ -24,7 +24,7 @@ clear
   ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣀⡿⠿⠿⠿⠿⠿⠿⢿⣀⣀⣀⣀⣀⡀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠸⠿⣇⣀⣀⣀⣀⣀⣀⣸⠿⢿⣿⣿⣿⡇⠀⠀Host a Minecraft Server using Android - With Termux
-⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft Beta 4.0 OpenJDK21
+⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/ronakogX/Minecraft-Host-termux-2.0 Beta 4.0 OpenJDK21
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣧⣤⡼⠿⢧⣤⡀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⢻⣿⡇⠀⢸⣿⡇ This version works with OpenJDK-21, so some bugs, 
 ⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⠛⠀⢸⣿⡇⠀⢸⣿⡇ launcher crashes, or other unwanted errors may still occur.
@@ -38,12 +38,12 @@ clear
 
 
     echo " "
-    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple Minecraft Version 1.19.2 $Red ⫷\033[0m"
+    echo -e "                   $Yellow Made by ronakogX$Red       ⫸$Purple Minecraft Version 1.19.2 $Red ⫷\033[0m"
 echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
 echo -e " $Green     ||                                                                   "
-echo -e " $Green     ||             $Purple==>$Yellow[1] START Server - 8GB RAM$Green                    "
+echo -e " $Green     ||             $Purple==>$Yellow[1] START Server - 4GB RAM$Green                    "
 echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Launcher$Green                                           "
 echo -e " $Green     ||                                                                   "                                                                                       
 echo -e " $Green     ||---------------------------$Cyan [select option] $Green-----------------------||"
@@ -65,9 +65,9 @@ passwd
 
 cd ~/
 
-mkdir drmatoi_minecrafthost19 && drmatoi_minecrafthost19
+mkdir ronak_minecrafthost19 && ronak_minecrafthost19
 
-cd drmatoi_minecrafthost19
+cd ronak_minecrafthost19
 
 wget -O server.jar https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar
 
@@ -75,7 +75,7 @@ chmod +x server.jar
 
  echo eula=true > eula.txt
 
-java -Xmx8G -Xms8G -jar server.jar nogui
+java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     
