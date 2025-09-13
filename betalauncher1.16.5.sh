@@ -24,11 +24,11 @@ clear
   ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣀⡿⠿⠿⠿⠿⠿⠿⢿⣀⣀⣀⣀⣀⡀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠸⠿⣇⣀⣀⣀⣀⣀⣀⣸⠿⢿⣿⣿⣿⡇⠀⠀Host a Minecraft Server using Android - With Termux
-⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft Beta 4.0 OpenJDK21
+⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/ronakogX/Minecraft-Host-termux-2.0 Beta 4.0 OpenJDK21
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣧⣤⡼⠿⢧⣤⡀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⢻⣿⡇⠀⢸⣿⡇ This version works with OpenJDK-21, so some bugs, 
 ⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⠛⠀⢸⣿⡇⠀⢸⣿⡇ launcher crashes, or other unwanted errors may still occur.
-⠀⠀⠀⠀⠀⠀⢠⣤⣿⣿⣿⣿⠛⠛⠀⠀⠀⢸⣿⡇⠀⢸⣿⡇ Due to this early stage of development, only the 8GB option is available so far.
+⠀⠀⠀⠀⠀⠀⢠⣤⣿⣿⣿⣿⠛⠛⠀⠀⠀⢸⣿⡇⠀⢸⣿⡇ Due to this early stage of development, only the 4GB option is available so far.
 ⠀⠀⠀⠀⢰⣶⣾⣿⣿⣿⠛⠛⠀⠀⠀⠀⠀⠈⠛⢳⣶⡞⠛⠁
 ⠀⠀⢰⣶⣾⣿⣿⣿⡏⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀
 ⢰⣶⡎⠉⢹⣿⡏⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -43,7 +43,7 @@ echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
 echo -e " $Green     ||                                                                   "
-echo -e " $Green     ||             $Purple==>$Yellow[1] START Server $Green                    "
+echo -e " $Green     ||             $Purple==>$Yellow[1] START Server - 4GB $Green                    "
 echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Launcher$Green                                           "
 echo -e " $Green     ||                                                                   "                                                                                       
 echo -e " $Green     ||---------------------------$Cyan [select option] $Green-----------------------||"
@@ -67,7 +67,7 @@ cd ~/
 
 mkdir ronak_minecrafthost16 && ronak_minecrafthost16
 
-cd drmatoi_minecrafthost16
+cd ronak_minecrafthost16
 
 wget -O server.jar https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar
 
@@ -75,7 +75,7 @@ chmod +x server.jar
 
  echo eula=true > eula.txt
 
-java -Xmx1G -Xms4G -jar server.jar nogui
+java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     
