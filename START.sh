@@ -63,9 +63,9 @@ display_version_menu() {
     echo -e " ${GREEN}     |---------------------------------------------------------------------|"
     echo -e " ${GREEN}     ||----------------------------${CYAN} [List] ${GREEN}---------------------------||"
     echo -e " ${GREEN}     ||                                                                   "
-    echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[1] Minecraft Version 1.21.8 - 4GB / 8GB / 12GB RAM${GREEN}"
-    echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[2] Minecraft Version 1.16.5 - 8GB RAM (Unstable version)${GREEN}"
-    echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[3] Minecraft Version 1.19.2 - 8GB RAM (Unstable version)${GREEN}"
+    echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[1] Minecraft Version 1.21.8 - 4GB RAM${GREEN}"
+    echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[2] Minecraft Version 1.16.5 - 4GB RAM (Unstable version)${GREEN}"
+    echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[3] Minecraft Version 1.19.2 - 4GB RAM (Unstable version)${GREEN}"
     echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}  ${GREEN}"
     echo -e " ${GREEN}     ||             ${PURPLE}==>${YELLOW}[000] Reset/Update Launcher${GREEN}"
     echo -e " ${GREEN}     ||                                                                   "
@@ -82,7 +82,7 @@ setup_repository() {
     echo -e "${CYAN}Setting up repository...${RESET}"
     pkg install git -y
     git clone https://github.com/ronakogX/Minecraft-Host-termux-2.0
-    cd minecraft
+    cd Minecraft-Host-termux-2.0
 }
 
 # ───────────────────────────────────────────────────────────────────────────────
@@ -108,9 +108,9 @@ launch_version_1192() {
 
 reset_launcher() {
     echo -e "${YELLOW}Resetting launcher...${RESET}"
-    rm -rf minecraft
+    rm -rf Minecraft-Host-termux-2.0
     git clone https://github.com/ronakogX/Minecraft-Host-termux-2.0
-    cd minecraft
+    cd Minecraft-Host-termux-2.0
     chmod +x START.sh
     ./START.sh
 }
