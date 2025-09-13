@@ -15,7 +15,7 @@ apt-get upgrade
 apt-get install python
 apt-get install python2
 clear
-echo -e "$Yellow drmatoi/minecraft  beta 4.0\e[1;34m"
+echo -e "$Yellow github.com/ronakogX/Minecraft-Host-termux-2.0"
 echo -e "$Red THIS IS AN EXPERIMENTAL VERSION WHICH IS STILL BEING DEVELOPED! \e[1;34m"
 sleep 4.0
 clear
@@ -65,9 +65,9 @@ passwd
 
 cd ~/
 
-mkdir drmatoi_minecrafthost19 && drmatoi_minecrafthost19
+mkdir ronak_minecrafthost21 && ronak_minecrafthost21
 
-cd drmatoi_minecrafthost19
+cd ronak_minecrafthost21
 
 wget -O server.jar https://fill-data.papermc.io/v1/objects/8de7c52c3b02403503d16fac58003f1efef7dd7a0256786843927fa92ee57f1e/paper-1.21.8-60.jar
 
@@ -75,14 +75,14 @@ chmod +x server.jar
 
  echo eula=true > eula.txt
 
-java -Xmx1G -Xms4G -jar server.jar nogui
+java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/ronakogX/Minecraft-Host-termux-2.0
 cd minecraft
 chmod +x betalauncher1.21.8.sh
 ./betalauncher1.21.8.sh
