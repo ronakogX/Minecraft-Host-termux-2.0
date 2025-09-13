@@ -83,7 +83,7 @@ java -Xmx4G -Xms4G -jar server.jar nogui
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
 git clone https://github.com/ronakogX/Minecraft-Host-termux-2.0
-cd minecraft
+cd Minecraft-Host-termux-2.0
 chmod +x betalauncher1.16.5.sh
 ./betalauncher1.16.5.sh
      
