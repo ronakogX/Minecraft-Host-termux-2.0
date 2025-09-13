@@ -20,7 +20,7 @@ Copy and paste these commands into Termux:
 ```bash
 pkg install git
 git clone https://github.com/ronakogX/Minecraft-Host-termux-2.0
-cd minecraft
+cd Minecraft-Host-termux-2.0
 chmod +x START.sh
 ./START.sh
 ```
@@ -30,7 +30,7 @@ chmod +x START.sh
 To launch the server again:
 
 ```bash
-cd minecraft
+cd Minecraft-Host-termux-2.0
 chmod +x START.sh
 ./START.sh
 ```
